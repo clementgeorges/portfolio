@@ -119,7 +119,7 @@ header {
 
 .bg-image {
     position: absolute;
-    background-image: url("/Users/clementgeorges/Documents/DevProject/portfolio/resourses/images/pexels-photo-436775.jpeg");
+    background-image: url("./resourses/images/pexels-photo-436775.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
