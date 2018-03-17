@@ -330,8 +330,8 @@ span {
 
 .footerRow {
     display: flex;
-    justify-content: center;
-    padding: 2rem;
+    justify-content: space-between;
+    padding: 2rem 1rem;
     align-items: center;
     color: #1d1c1ce0;
 }
@@ -413,8 +413,9 @@ span {
     }
 }
 
-@media only screen and (max-width: 320px) {
-    .aboutImg img {
-
+@media only screen and (max-width: 930px) and (min-width: 751px) {
+    .footerRow {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
     }
 }
