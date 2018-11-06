@@ -174,6 +174,10 @@ span {
     background-color: #f1f1f1;
 }
 
+.aboutContainerCur {
+    background-color: rgb(255, 255, 255);
+}
+
 .aboutFlexContainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -239,6 +243,14 @@ span {
     margin: 2rem 1rem 3rem;
 }
 
+.techRowCert {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap: 4rem;
+    margin: 2rem 1rem 3rem;
+}
+
 .techRow img {
     margin-bottom: 1rem;
 }
@@ -257,6 +269,16 @@ span {
     color: #1d1c1ce0;
 }
 
+.iconContainerCert {
+    width:  100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    color: #1d1c1ce0;
+}
+
+
 .jQueryColorLogo {
     display: none
 }
@@ -264,12 +286,32 @@ span {
 .iconContainer:hover {
     background-color: #1595A3;
     color: #FBE6CF;
-    transition: 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+.iconContainerCert:hover {
+    color: #1595A3;
+    transition: all 500ms ease-in-out;
 }
 
 .footNote {
     font-size: 0.75rem;
     font-style: italic;
+}
+
+.techIconCert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certLink {
+    text-decoration: none;
+    text-align: center;
+}
+
+.techIconCert p {
+    padding-top: 2rem;
 }
 
 /* Project Section */
@@ -307,12 +349,12 @@ span {
 
 .projectBack:hover {
     background-color: #1595A3;
-    transition: 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
     color: white;
 }
 .projectBack:hover p {
     color: white;
-    transition: 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 
 /* Footer Section */
@@ -330,7 +372,7 @@ span {
 
 .footerRow {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 2rem 1rem;
     align-items: center;
     color: #1d1c1ce0;
@@ -401,6 +443,11 @@ span {
 
     .techRow {
         grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 2rem;
+    }
+
+    .techRowCert {
+        grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 2rem;
     }
 
