@@ -1,9 +1,0 @@
-{
-  "title": "Site Build Boilerplate",
-  "description": "Simple sample data for loading with JavaScript.",
-  "items": [
-    { "id": 1, "name": "Sample item 1" },
-    { "id": 2, "name": "Sample item 2" },
-    { "id": 3, "name": "Sample item 3" }
-  ]
-}
