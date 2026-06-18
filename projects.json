@@ -1,0 +1,33 @@
+[
+  {
+    "id": "01",
+    "badge": "LEAD DEVELOPER",
+    "title": "Global Citizenship Solutions",
+    "subtitle": "GLOBAL PASSPORT INDEX — BIG DATA VISUALIZATION",
+    "description": "Architected a massive Global Passport Index featuring dynamic big data plotting for 120+ countries. Developed custom plugins to handle 1,000+ data points, integrating Google Charts and Chart.js for real-time visualization. Reverse-engineered legacy systems to improve site architecture, scalability, and performance. <a href='https://www.globalcitizensolutions.com/' target='_blank' rel='noopener noreferrer'>View website ~/></a>",
+    "stats": [
+      { "value": "120+ countries", "isHighlighted": true },
+      { "value": "1,000+ data points", "isHighlighted": false }
+    ],
+    "tags": [
+      "WordPress",
+      "PHP",
+      "Chart.js",
+      "Google Charts",
+      "Big Data",
+      "Python"
+    ]
+  },
+  {
+    "id": "02",
+    "badge": "FULL STACK DEVELOPER",
+    "title": "National AI Awards",
+    "subtitle": "EVENT-DRIVEN INTERACTIVE SITE",
+    "description": "Developed a high-end, interactive site featuring sophisticated CSS/JS animations. Engineered \"State Logic\" functionality allowing the site to automatically toggle between three distinct modes — Nominations, Winners, and Static — based on the event lifecycle. <a href='https://thenationalaiawards.com' target='_blank' rel='noopener noreferrer'>View website ~/></a>",
+    "stats": [
+      { "value": "3 live states", "isHighlighted": true },
+      { "value": "Event-driven", "isHighlighted": false }
+    ],
+    "tags": ["JavaScript", "CSS Animations", "State Logic", "WordPress"]
+  }
+]

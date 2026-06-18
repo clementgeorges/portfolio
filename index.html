@@ -1,356 +1,246 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio | Home</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="./resourses/images/favicon.ico" type="image/x-icon">
-    <!-- Reset CSS Stylesheet -->
-    <link rel="stylesheet" href="./resourses/reset.css">
-    <!-- FontAwesome -->
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <!-- Main CSS Stylesheet -->
-    <link rel="stylesheet" href="./resourses/style.css">
-</head>
-
-<body>
-
-    <!-- Banner Section -->
-    <header>
-        <div class="bg-image"></div>
-        <div class="headContainer">
-            <div class="logo">
-                <img src="./resourses/images/Sketch Logo white.png" alt="clem logo">
-            </div>
-            <div class="headText">
-                <h1>Hi! I'm Clem.</h1>
-                <span class="txt-rotate" data-period="2000" data-rotate='[ "I&#39;m a Frontend Developer", "I&#39;m a geek.", "I&#39;m funny, I think i am..", "and I&#39m a musician.", ":)" ]'></span>
-                <h2 class="title">Thanks for visiting my Portfolio.</h2>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clement Georges Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="/favicon.svg" />
+  </head>
+  <body>
+    <section class="header-container" aria-label="Site header">
+      <header role="banner">
+        <span class="ff-space-mono" aria-label="clement.dev logo">
+          <span class="pre-logo fs-small" aria-hidden="true">~/_</span>
+          <span class="logo uppercase fs-regular">clement.dev</span>
+        </span>
+        <nav aria-label="Primary navigation">
+          <ul class="uppercase fs-small" role="list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+    <main id="main-content">
+      <section class="hero-container pad-tb" aria-labelledby="hero-name">
+        <span class="pre-heading" aria-hidden="true">$ meow</span>
+        <h1 id="hero-name" class="hero-name fs-xl-large ff-fraunces fw-900">
+          <span>Clement</span>
+          <span class="surname">Georges</span>
+        </h1>
+        <div class="pad-top-sm hero-lead">
+          <p>
+            Web developer with 5+ years building custom WordPress solutions,
+            data-rich platforms, and clean backend logic. Rooted in
+            <span class="highlight">logic and efficiency</span>
+            — I architect maintainable code and find effective workflows to
+            solve complex problems.
+          </p>
+          <p>
+            Currently at
+            <a class="hover" target="_blank" href="https://superseedstudio.com/" rel="noopener noreferrer" aria-label="Superseed Studio (opens in new tab)">Superseed Studio</a>,
+            leading development across client sites and mentoring junior
+            developers.
+          </p>
         </div>
-    </header>
-
-    <main>
-
-        <!-- Technical Skills -->
-        <div class="techHeading">
-            <h3>Technical Skills</h3>
+        <div class="contact-container" aria-label="Contact information">
+          <div class="contact-container-item">
+            <i class="fa-regular fa-solid fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:mrcrazyfingerz@gmail.com" aria-label="Email Clement at mrcrazyfingerz@gmail.com">
+              mrcrazyfingerz@gmail.com
+            </a>
+          </div>
+          <div class="contact-container-item">
+            <i class="fa-regular fa-solid fa-phone" aria-hidden="true"></i>
+            <a href="tel:27731485807" aria-label="Call Clement at +27 731 485 807">
+              +27 731 485 807
+            </a>
+            </a>
+          </div>
         </div>
-        <div class="techRow">
-            <div class="iconContainer">
-                <div class="techIcon">
-                    <i class="fab fa-html5 fa-7x"></i>
-                    <p>HTML</p>
-                </div>
-            </div>
-            <div class="iconContainer">
-                <div class="techIcon">
-                    <i class="fab fa-css3-alt fa-7x"></i>
-                    <p>CSS</p>
-                </div>
-            </div>
-            <div class="iconContainer">
-                <div class="techIcon">
-                    <i class="fab fa-js fa-7x"></i>
-                    <p>JavaScript</p>
-                </div>
-            </div>
-            <div class="iconContainer">
-                <div class="techIcon">
-                    <img src="./resourses/images/jquerySmall.svg" class="jQueryColorBlack" alt="jquery logo" onmouseover="this.src='./resourses/images/jquerySmallcolor.svg'"
-                        onmouseout="this.src='./resourses/images/jquerySmall.svg'">
-                    <img src="./resourses/images/jquerySmallcolor.svg" class="jQueryColorLogo" alt="jquery logo">
-                    <p>&#42 jQuery</p>
-                </div>
-            </div>
-            <div class="iconContainer">
-                <div class="techIcon">
-                    <i class="fas fa-bold fa-7x"></i>
-                    <p>Bootstrap</p>
-                </div>
-            </div>
-            <div class="iconContainer">
-                <div class="techIcon">
-                    <i class="fas fa-terminal fa-7x"></i>
-                    <p>Terminal</p>
-                </div>
-            </div>
-            <div class="iconContainer">
-                <div class="techIcon">
-                    <i class="fab fa-github fa-7x"></i>
-                    <p>Github</p>
-                </div>
-            </div>
-            <div class="iconContainer">
-                <div class="techIcon">
-                    <i class="fab fa-php fa-7x"></i>
-                    <p>&#42 PHP</p>
-                </div>
-            </div>
-            <div class="footNote">
-                <p>&#42 Basic introduction.</p>
-            </div>
+      </section>
+      <section class="border-top" aria-hidden="true"></section>
+      <section id="about" class="grid-two-cols about pad-tb" aria-labelledby="about-heading">
+        <div class="container-left">
+          <span class="pre-heading" aria-hidden="true">$ cat about.txt</span>
+          <h2 id="about-heading" class="section-heading pad-top-xsm fs-large ff-fraunces fw-900">
+            About Me
+          </h2>
         </div>
-
-        <!-- About Section -->
-        <div class="aboutContainer">
-            <div class="aboutFlexContainer">
-                <div class="aboutImg">
-                    <img src="./resourses/images/Clem.jpg" alt="clem about image">
-                </div>
-                <div class="aboutInfo">
-                    <h3>About Me</h3>
-                    <p>Hi there! My name is Clement, and I’m a Frontend Developer.
-                        I love to code and develop. I focus on clean and efficient code.</p>
-                    <p>I’ve studied an intensive course of Frontend Development at <a href="https://www.codecademy.com/" target="blank">Codecademy</a href="https://www.codecademy.com/" target="blank"> where I’ve picked up the following
-                        skillset; HTML 5, CSS and JavaScript/JQuery.</p>
-                    <p>I’ve always wanted to develop webpages for amazing people to enjoy and interact with, so I decided to
-                        just jump right in to it and boy have I enjoyed it.</p>
-                    <p>I’m currently staying in the South Peninsula (Muizenberg) at the moment as I really love the fresh air
-                        and long walks on the beach. I’m a pro musician (loves music, loves to
-                        dance), and I enjoy anything geeky, from superhero to gadgets and tech.</p>
-                    <p>Below are a few projects that I’ve completed during my intensive course at Codecademy and outside of
-                        it.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Project Section -->
-        <div class="techHeading">
-            <h3>Projects</h3>
-        </div>
-        <div class="projectRow">
-                <div class="projectContainer">
-                        <a href="https://clementgeorges.github.io/notes-app/" target="blank">
-                            <img src="./resourses/images/ntoes_app_web.png" alt="JavaScript Notes App">
-                        </a>
-                        <div class="projectBack">
-                            <p><strong>JS Notes App.</strong>This was one of three apps that I built taking a dedicated JavaScript course called, "The Modern JavaScript Bootcamp" which covered everything from beginner JS to advanced JS concepts. This app takes in notes which then saves it to the Local Storage.</p>
-                        </div>
-                    </div>
-                    <div class="projectContainer">
-                        <a href="https://clementgeorges.github.io/to-do/" target="blank">
-                            <img src="./resourses/images/todo_app_web.png" alt="JavaScript Todo App">
-                        </a>
-                        <div class="projectBack">
-                            <p><strong>JS Todo App.</strong>This was one of three apps that I built taking a dedicated JavaScript course called, "The Modern JavaScript Bootcamp" which covered everything from beginner JS to advanced JS concepts. This app takes in todos which then saves it to the Local Storage.</p>
-                        </div>
-                    </div>
-                    <div class="projectContainer">
-                        <a href="https://clementgeorges.github.io/hangman/" target="blank">
-                            <img src="./resourses/images/hangman_web.png" alt="JavaScript Hangman Game">
-                        </a>
-                        <div class="projectBack">
-                            <p><strong>JS Hangman Game.</strong>This was one of three apps that I built taking a dedicated JavaScript course called, "The Modern JavaScript Bootcamp" which covered everything from beginner JS to advanced JS concepts. This is a guessing game that gives the user 3 guesses. This app uses an API for the random generated words.</p>
-                        </div>
-                    </div>
-            <div class="projectContainer">
-                <a href="https://clementgeorges.github.io/Jumpstart/" target="blank"
-                    <p>
-                        <img src="./resourses/images/jumpstartsm.png" alt="Codecademy Jumpstart Project">
-                    </p>
-                </a>
-                <div class="projectBack">
-                    <p>
-                        <strong>Jumpstart.</strong> This project was based and developed with Bootstrap, the focus was on Responsive
-                        Design and working with Bootstrap and JQuery.</p>
-                </div>
-            </div>
-            <div class="projectContainer">
-                <a href="https://clementgeorges.github.io/Colmar-Academy/" target="blank">
-                    <img src="./resourses/images/colmarsm.png" alt="Codecademy Colmar Academy Project">
-                </a>
-                <div class="projectBack">
-                    <p>
-                        <strong>Colmar Academy.</strong> This was the Capstone and final project I was scored on. This project focused
-                        on everything that I learnt and positioned with FlexBox while making use of psudo classes.</p>
-                </div>
-            </div>
-            <div class="projectContainer">
-                <a href="https://clementgeorges.github.io/Tortoiseshell-Optics/" target="blank">
-                    <img src="./resourses/images/opticalsm.png" alt="Codecademy Tortoiseshell Optics Project">
-                </a>
-                <div class="projectBack">
-                    <p>
-                        <strong>Tortoiseshell Optics.</strong> This project focused on following the wireframe and FlexBox positioning.</p>
-                </div>
-            </div>
-            <div class="projectContainer">
-                <a href="https://clementgeorges.github.io/Secret-Agent-Supplies-Inc/" target="blank">
-                    <img src="./resourses/images/agentsm.png" alt="Codecademy Secret Agent Project">
-                </a>
-                <div class="projectBack">
-                    <p>
-                        <strong>Secret Agent Supply Shop.</strong> This project focused on following the wireframe and FlexBox positioning.</p>
-                </div>
-            </div>
-            <div class="projectContainer">
-                <a href="https://clementgeorges.github.io/Fotomatic/" target="blank">
-                    <img src="./resourses/images/fotosm.png" alt="Codecademy Fotomatic Project">
-                </a>
-                <div class="projectBack">
-                    <p>
-                        <strong>Fotomatic.</strong> I received this site broken, I had to use FlexBox to position the objects according
-                        to the wireframe and make the site responsive.</p>
-                </div>
-            </div>
-            <div class="projectContainer">
-                <a href="https://clementgeorges.github.io/teacozy/" target="blank">
-                    <img src="./resourses/images/teasm.png" alt="Codecademy Tea Cozy Project">
-                </a>
-                <div class="projectBack">
-                    <p>
-                        <strong>Tea Cozy.</strong> This was one of the first FlexBox positioning project. I worked from a wireframe
-                        to build and position this project.</p>
-                </div>
-            </div>
-            <div class="projectContainer">
-                <a href="https://clementgeorges.github.io/mytimes/" target="blank">
-                    <img src="./resourses/images/timessm.png" alt="Codecademy My Times Project">
-                </a>
-                <div class="projectBack">
-                    <p>
-                        <strong>My Time.</strong> A simple news content site. This was my first attempt at FlexBox while following
-                        the wireframe to position and build this site.</p>
-                </div>
-            </div>
-            <div class="projectContainer">
-                <a href="https://clementgeorges.github.io/excursion/" target="blank">
-                    <img src="./resourses/images/excurtionsm.png" alt="Codecademy Excurtion Project">
-                </a>
-                <div class="projectBack">
-                    <p>
-                        <strong>Excretion.</strong> This project focused on inserting Images and video in the HTML document with
-                        CSS styling.</p>
-                </div>
-            </div>
-            <div class="projectContainer">
-                <a href="https://clementgeorges.github.io/prj-rev-bwfs-dasmoto/" target="blank">
-                    <img src="./resourses/images/artssm.png" alt="Codecademy Dasmoto’s Art & Crafts Project">
-                </a>
-                <div class="projectBack">
-                    <p>
-                        <strong>Dasmoto’s Art & Crafts.</strong> This project focused on inserting Images in the HTML document with
-                        CSS styling.</p>
-                </div>
-            </div>
-            <div class="projectContainer">
-                <a href="https://clementgeorges.github.io/BeachParadise/" target="blank">
-                    <img src="./resourses/images/beachsm.png" alt="Codecademy Paradise Beach Project">
-                </a>
-                <div class="projectBack">
-                    <p><strong>Paradise Beach.</strong> Where it all begun. This was an introduction to HTML, very basic. We were
-                        all there at some point. :)</p>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- Certificate Section -->
-        <div class="techHeading">
-            <h3>Certificates</h3>
-        </div>
-        <div class="aboutContainer">
-            <div class="aboutFlexContainer">
-                <div class="techRowCert">
-                    <a class="certLink" href="./resourses/images/Clem_Front_End_Dev.pdf" target="blank">
-                        <div class="iconContainerCert">
-                            <div class="techIconCert">
-                                <i class="fas fa-certificate fa-5x"></i>
-                                <p>Front End Development Certificate</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="certLink" href="./resourses/images/The_Modern_JS_Bootcamp_2018.pdf" target="blank">
-                        <div class="iconContainerCert">
-                            <div class="techIconCert">
-                                <i class="fas fa-certificate fa-5x"></i>
-                                <p>The Modern JavaScript Bootcamp Certificate</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="certLink" href="./resourses/images/PHP_Master_The_Basics_Brad_Hassy.pdf" target="blank">
-                        <div class="iconContainerCert">
-                            <div class="techIconCert">
-                                <i class="fas fa-certificate fa-5x"></i>
-                                <p>Practical PHP: Master the Basics and Code Dynamic Web Certificate</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Curriculum Section -->
-        <div class="techHeading">
-            <h3>Curriculum Covered</h3>
-        </div>
-        <div class="aboutContainerCur">
-            <div class="aboutFlexContainer">
-                <div class="techRowCert">
-                    <a class="certLink" href="https://help.codecademy.com/hc/en-us/articles/115001440448-What-curriculum-is-covered-in-Build-Websites-from-Scratch-" target="blank">
-                        <div class="iconContainerCert">
-                            <div class="techIconCert">
-                                <i class="fas fa-anchor fa-5x"></i>
-                                <p>Front End Developmentanchor Certificate</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="certLink" href="https://www.udemy.com/modern-javascript/learn/v4/content" target="blank">
-                        <div class="iconContainerCert">
-                            <div class="techIconCert">
-                                <i class="fas fa-anchor fa-5x"></i>
-                                <p>The Modern JavaScript Bootcamp Certificate</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="certLink" href="https://www.udemy.com/code-dynamic-websites/learn/v4/content" target="blank">
-                        <div class="iconContainerCert">
-                            <div class="techIconCert">
-                                <i class="fas fa-anchor fa-5x"></i>
-                                <p>Practical PHP: Master the Basics and Code Dynamic Web Certificate</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-    </main>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="footerWrapper">
-            <h3>Lets get in touch.</h3>
-            <div class="footerRow">
-                <i class="fas fa-envelope-open fa-2x"></i>
-                <a href="mailto:mrcrazyfingerz@gmail.com"><p>mrcrazyfingerz@gmail.com</p></a>
-                <i class="fas fa-mobile fa-2x"></i>
-                <p>+27 731485807</p>
-                <i class="fas fa-user-secret fa-2x"></i>
-                <a href="./resourses/images/Clement_Georges_Resume_2018_fix.pdf" target="blank"><p>View my resume</p></a>
-            </div>
-        </div>
-        
-        <!-- Social Section -->
-        <div class="socialWrapper">
-            <div class="socialROw">
-                <a href="https://github.com/clementgeorges" target="blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/clement-georges-2b28236a/" target="blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/mrcrazyfingerz/" target="blank"><i class="fab fa-instagram"></i></a>
-            </div>
+        <div class="contain-right">
+          <p>
+            My approach is rooted in
+            <span class="highlight">logic and efficiency</span>. I specialise in
+            architecting clean, maintainable code and finding the most effective
+            workflows to solve complex problems — whether building custom
+            plugins to manage large-scale data or automating manual processes.
+            My goal is always solutions that are scalable, reliable, and
+            intuitive for the end-user.
+          </p>
+          <div class="marg-top-md work-stack-container">
+            <span class="work-stack-pre-header uppercase fs-xs" id="stack-development">Development</span>
+            <ul class="work-stack-items pad-top-xsm" aria-labelledby="stack-development" role="list">
+              <li>WordPress</li>
+              <li>PHP</li>
+              <li>JavaScript (ES6+)</li>
+              <li>jQuery</li>
+              <li>HTML5</li>
+              <li>CSS3/SASS</li>
+              <li>Python</li>
+              <li>Elementor</li>
+              <li>Crocoblock</li>
+              <li>Gravity Forms</li>
+              <li>Gravity Wiz</li>
+              <li>Woocommerce</li>
+            </ul>
+          </div>
+          <div class="pad-top-sm work-stack-container">
+            <span class="work-stack-pre-header uppercase fs-xs" id="stack-data">Data &amp; Logic</span>
+            <ul class="work-stack-items pad-top-xsm" aria-labelledby="stack-data" role="list">
+              <li>Chart.js</li>
+              <li>Google Charts</li>
+              <li>API Integrations</li>
+              <li>Backend Architecture</li>
+            </ul>
+          </div>
+          <div class="pad-top-sm work-stack-container">
+            <span class="work-stack-pre-header uppercase fs-xs" id="stack-tools">Tools</span>
+            <ul class="work-stack-items pad-top-xsm" aria-labelledby="stack-tools" role="list">
+              <li>GitHub</li>
+              <li>Terminal</li>
+              <li>Bootstrap</li>
+              <li>UI/UX Design</li>
+              <li>Web Debugging</li>
+              <li>Figma</li>
+              <li>Photoshop/Illustrator</li>
+              <li>Affinity</li>
+              <li>MailChimp</li>
+              <li>Activecampaign</li>
+            </ul>
+          </div>
+          <div class="pad-top-sm work-stack-container">
+            <span class="work-stack-pre-header uppercase fs-xs" id="stack-leadership">Leadership</span>
+            <ul class="work-stack-items pad-top-xsm" aria-labelledby="stack-leadership" role="list">
+              <li>Mentorship</li>
+              <li>Process Optimization</li>
+              <li>Technical Strategy</li>
+            </ul>
+          </div>
+          <div class="marg-top-md education-container" aria-labelledby="education-heading">
             <div>
-                <p>Handmade by me © 2018</p>
+              <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+              <span
+                style="padding-left: 0.5rem"
+                id="education-heading"
+                class="work-stack-pre-header uppercase fs-xs"
+                >Education</span
+              >
             </div>
+            <div class="pad-top-sm education-container-item" role="listitem">
+              <div class="education-container-iten-left">
+                <span class="education-title">Codecademy</span>
+                <span class="education-description">Front End Development Certification</span>
+              </div>
+              <div class="education-container-item-right">
+                <span class="education-year">2018</span>
+              </div>
+            </div>
+            <div class="pad-top-sm education-container-item" role="listitem">
+              <div class="education-container-iten-left">
+                <span class="education-title">Prompt</span>
+                <span class="education-description">Music Theory &amp; Sound Engineering</span>
+              </div>
+              <div class="education-container-item-right">
+                <span class="education-year">2004</span>
+              </div>
+            </div>
+            <div class="pad-top-sm education-container-item" role="listitem">
+              <div class="education-container-iten-left">
+                <span class="education-title">Trafalgar High School</span>
+                <span class="education-description">Matriculated</span>
+              </div>
+              <div class="education-container-item-right">
+                <span class="education-year">2003</span>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+      <section class="border-top" aria-hidden="true"></section>
+      <section id="experience" class="grid-two-cols experience pad-tb" aria-labelledby="experience-heading">
+        <div class="container-left">
+          <span class="pre-heading" aria-hidden="true">$ git log --work</span>
+          <h2 id="experience-heading" class="section-heading pad-top-xsm fs-large ff-fraunces fw-900">
+            Experience
+          </h2>
+        </div>
+        <div class="contain-right">
+          <div id="experience-container" class="experience-accordion" role="list" aria-label="Work experience"></div>
+        </div>
+      </section>
+      <section class="border-top" aria-hidden="true"></section>
+      <section id="projects" class="grid-two-cols projects pad-tb" aria-labelledby="projects-heading">
+        <div class="container-left">
+          <span class="pre-heading" aria-hidden="true">$ ls ./projects</span>
+          <h2 id="projects-heading" class="section-heading pad-top-xsm fs-large ff-fraunces fw-900">
+            Key Projects
+          </h2>
+        </div>
+        <div class="container-right">
+          <div class="project-count" aria-live="polite" aria-atomic="true"></div>
+        </div>
+      </section>
+      <section class="container-bottom" aria-label="Projects grid">
+        <div id="projects-grid" class="projects-grid" role="list" aria-label="Project list"></div>
+      </section>
+      <section class="border-top" aria-hidden="true"></section>
+      <section id="contact" class="grid-two-cols contact pad-tb" aria-labelledby="contact-heading">
+        <div class="container-left">
+          <span class="pre-heading" aria-hidden="true">$ ping clement</span>
+          <h2 id="contact-heading" class="section-heading pad-top-xsm fs-large ff-fraunces fw-900">
+            Contact
+          </h2>
+        </div>
+        <div class="container-right">
+          <p>
+            Open to new projects, collaborations, and full-time opportunities.
+            Let's build something that works.
+          </p>
+          <button class="btn-primary" aria-label="Send email to mrcrazyfingerz@gmail.com">
+            <a href="mailto:mrcrazyfingerz@gmail.com">mrcrazyfingerz@gmail.com</a>
+          </button>
+          <button class="btn-secondary" aria-label="Call +27 731 485 807">
+            <a href="tel:+27731485807">+27 731 485 807</a>
+          </button>
+        </div>
+      </section>
+    </main>
+    <section class="footer-border-top" aria-hidden="true"></section>
+    <footer role="contentinfo" aria-label="Site footer">
+      <div class="footer-container-left">
+        <span class="fs-small fw-300">© 2026 Clement Georges</span>
+      </div>
+      <div class="footer-container-right">
+        <span class="fs-small ff-space-mono">Cape Town, ZA</span>
+      </div>
     </footer>
-
-    <!-- Main JS -->
-    <script src="./resourses/main.js"></script>
-</body>
-
+    <script src="script.js"></script>
+    <script src="projects.js"></script>
+  </body>
 </html>

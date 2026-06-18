@@ -1,0 +1,44 @@
+[
+  {
+    "company": "Superseed Studio",
+    "role": "Web Developer",
+    "dateRange": "2020 — Present",
+    "isOpen": true,
+    "highlights": [
+      "Lead development of custom-coded WordPress themes and plugins for diverse client sites.",
+      "Managed full-cycle web maintenance: proactive updates, security, and complex debugging.",
+      "Guided junior developers, establishing coding standards and efficient development workflows.",
+      "Developed tailored backend structures and custom plugins to handle complex data requirements."
+    ]
+  },
+  {
+    "company": "Raru.co.za",
+    "role": "Senior Category Manager",
+    "dateRange": "2015 — 2017",
+    "isOpen": false,
+    "highlights": [
+      "Managed product categories, pricing structures, and vendor relationships.",
+      "Optimized e-commerce catalogs to improve overall user navigation and sales conversion rates."
+    ]
+  },
+  {
+    "company": "Kalahari.com/Takealot.com",
+    "role": "Listing Specialist",
+    "dateRange": "2013 — 2015",
+    "isOpen": false,
+    "highlights": [
+      "Managed large-scale data entry and accuracy for Film, Music, and Video Game categories.",
+      "Collaborated with Buyers on catalogue additions based on market trends and pricing data."
+    ]
+  },
+  {
+    "company": "Paul Bother Music",
+    "role": "Instrument Specialist / PA to Retail Director",
+    "dateRange": "2004 — 2013",
+    "isOpen": false,
+    "highlights": [
+      "Multi-faceted role covering Web Content Management, Graphic Design, and Social Media.",
+      "Balanced technical tasks with high-level administrative coordination for the Retail Director."
+    ]
+  }
+]
