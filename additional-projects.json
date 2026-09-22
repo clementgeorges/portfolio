@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Cape SPCA",
+    "description": "Site for Cape of Good Hope SPCA, South Africa's oldest animal welfare group, featuring adoption listings, donation flows, and campaign-driven content management modules.",
+    "link": "https://capespca.co.za/"
+  },
+  {
+    "name": "Yellotec",
+    "description": "Site for Yellotec, a Sub-Saharan African machine health monitoring specialist, showcasing filterable product catalogues, training courses, and detailed reliability solutions.",
+    "link": "https://yellotec.co.za/"
+  },
+  {
+    "name": "Cornwall Airport Newquay",
+    "description": "Site for Cornwall Airport Newquay, featuring live flight departures/arrivals, an interactive route map, online parking bookings, and detailed travel and accessibility guides.",
+    "link": "https://www.cornwallairportnewquay.com/"
+  },
+  {
+    "name": "Sustainable Seas Trust",
+    "description": "Site for Sustainable Seas Trust, an African blue economy NGO, featuring an interactive marine network map, impact stats, research publications, and donation tools for coastal cleanups.",
+    "link": "https://sst.org.za/"
+  },
+  {
+    "name": "Dr Corrie Block",
+    "description": "Site for Dr Corrie Block, a globally recognised executive coach to CEOs, featuring his books, keynote reels, client testimonials, and an enquiry funnel for coaching and speaking leads.",
+    "link": "https://www.corrieblock.com/"
+  },
+  {
+    "name": "Seattle Coffee Company",
+    "description": "Site for Seattle Coffee Company, showcasing their artisanal coffee origin stories, a store locator, loyalty programme, and live Instagram feeds and curated store Spotify tracklistings.",
+    "link": "https://www.seattlecoffeecompany.co.za/"
+  },
+  {
+    "name": "Madikwe Game Reserve",
+    "description": "Site for Madikwe Game Reserve, a South African safari booking platform showcasing 20+ luxury lodges, live rates, and a multi-step trip-planning and a detailed traveller enquiry wizard.",
+    "link": "https://www.madikwe.com/"
+  },
+  {
+    "name": "Growth Studio",
+    "description": "Site for Growth Studio, a UK innovation agency, featuring bespoke program directory layouts, interactive startup alumni showcases, and dynamic lead capture funnels.",
+    "link": "https://www.growthstudio.com/"
+  },
+  {
+    "name": "And the list goes on...",
+    "description": "With over 5+ years of custom web development, I’ve architected, built, and maintained dozens of sites for both local South African brands and international clients.",
+    "link": ""
+  }
+]

@@ -906,6 +906,47 @@ h1 {
   }
 }
 
+.additional-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 3rem;
+
+  & .additional-project-item {
+    border: 1px solid var(--color-blue-500);
+    padding: 20px;
+    background: var(--color-blue-300);
+  }
+
+  & .additional-project-item:last-child {
+    background: var(--color-blue-500);
+    color: var(--color-grey-100);
+    border: 1px solid rgba(226, 232, 240, 0.25);
+  }
+
+  & .additional-project-item:last-child a {
+    display: none;
+  }
+
+  & .additional-project-info {
+    display: inline-flex;
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+
+  & .additional-project-title {
+    text-transform: uppercase;
+    font-size: var(--fs-md);
+    font-weight: var(--fw-500);
+    color: var(--color-white-500);
+  }
+
+  & .additional-project-title-delimiter {
+    color: var(--color-grey-500);
+    font-family: var(--ff-space-mono);
+    opacity: 0.5;
+  }
+}
+
 /* Contact  */
 
 .contact .container-right {
@@ -973,6 +1014,11 @@ footer {
       border-right: 0;
       border-bottom: 1px solid var(--color-blue-500);
     }
+  }
+
+  .additional-projects {
+    grid-template-columns: 1fr;
+    padding-top: 2rem;
   }
 
   .container-bottom {
