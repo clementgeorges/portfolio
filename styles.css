@@ -936,7 +936,7 @@ h1 {
   & .additional-project-title {
     text-transform: uppercase;
     font-size: var(--fs-md);
-    font-weight: var(--fw-600);
+    font-weight: var(--fw-500);
     color: var(--color-white-500);
   }
 
